@@ -3,13 +3,22 @@
 //
 #pragma once
 
-#include "IDataObject.h"
+#include <string>
+#include "MyStringDataObject.h"
+
+using namespace std;
 
 class DataContent
 {
-	DataContent(int ID, IDataObject* Data);
+private:
+
+protected:
+	//void* _data[SIZE];
+	MyStringDataObject* _data[5];
+	long _highkey;
+	long _lowkey;
 
 public:
-	long ID;
-	IDataObject* Data;
+	DataContent();
+	bool Insert(MyStringDataObject*);
 };

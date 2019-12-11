@@ -3,40 +3,33 @@
 //
 #include "DataFileParser.h"
 
-DataFileParser::DataFileParser()
-{
 
-}
-
-int DataFileParser::Foo()
+/*
+//IDataObject* DataFileParser::GetFileData(string DataFilePath)
+MyStringDataObject* DataFileParser::GetFileData(string DataFilePath)
 {
-	return 10;
-}
-
-string DataFileParser::GetFileData(string DataFilePath)
-{
-	string line(DataFilePath);
+	static MyStringDataObject dataarray[20];
+	string line;
+	int i = 0;
 
 	ifstream myfile(DataFilePath);
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
 		{
-			cout << line << '\n';
+			//dataarray[i] = new MyStringDataObject(line &);
+			i++;
 		}
 		myfile.close();
-		return line;
+
+		//return (IDataObject*)dataarray;
+		//return (MyStringDataObject*)dataarray;
+		return dataarray;
 	}
 	else
 	{
 		cout << "Unable to open file";
-		return string("Unable to open file");
+		return 0;
 	}
-	return line;
 }
-
-char* DataFileParser::GetFileData(char* DataFilePath)
-{
-	string line(DataFilePath);
-	return "foo";
-}
+*/

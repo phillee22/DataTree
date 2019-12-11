@@ -8,16 +8,18 @@
 #include <string>
 
 #include "Global.h"
+//#include "IDataObject.h"
+#include "MyStringDataObject.h"
 
 using namespace std;
 
 class DataFileParser
 {
-//	string x;
 
 public:
-	DataFileParser();
-	int Foo();
-	char* GetFileData(char* DataFilePath);
-	string GetFileData(string DataFilePath);
+	//DataFileParser();
+
+//	IDataObject* GetFileData(string);
+//	MyStringDataObject* GetFileData(string);
+
 };

@@ -3,6 +3,11 @@
 
 #pragma once
 
+#include <fstream>
 #include <iostream>
+#include <string>
+
+#include "Global.h"
+
 
 // TODO: Reference additional headers your program requires here.
