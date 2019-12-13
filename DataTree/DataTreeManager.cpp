@@ -19,7 +19,7 @@ bool DataTreeManager::Insert(MyStringDataObject* msdo)
 		_tree = new DataContent();
 	}
 
-	
+	_tree->Insert(msdo);
 
 	return false;
 }

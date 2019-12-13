@@ -1,12 +1,11 @@
-﻿// DataTree.cpp : Defines the entry point for the application.
+﻿//
+// DataTree.cpp : Defines the entry point for the application.
 //
 
 #include "DataTree.h"
 #include "MyStringDataObject.h"
 
 using namespace std;
-
-const int SIZE = 20;
 
 
 int main()
