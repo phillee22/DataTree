@@ -20,6 +20,8 @@ public:
 	//DataFileParser();
 
 //	IDataObject* GetFileData(string);
-//	MyStringDataObject* GetFileData(string);
+	//string* GetFileData(string);
+	int GetFileData(string**, string);
+	//MyStringDataObject* GetFileData(string);
 
 };

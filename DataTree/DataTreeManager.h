@@ -17,7 +17,7 @@ private:
 
 public:
 	DataTreeManager(string);
-	//~DataTreeManager();
+	~DataTreeManager();
 	bool Insert(MyStringDataObject* msdo);
 	//MyStringDataObject Find(string);
 	//bool Remove();

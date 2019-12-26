@@ -1,8 +1,9 @@
 //
 //
 //
-
 #include "DataContent.h"
+
+using namespace std;
 
 DataContent::DataContent()
 {
@@ -23,8 +24,8 @@ void DataContent::_Init()
 	_highkey = 0;
 	for(int i=0; i<SIZE; i++)
 	{
-		_childcontent[i] = 0;
-		_data[i] = 0;
+		_childcontent[i] = nullptr;
+		_data[i] = nullptr;
 	}
 }
 
@@ -39,9 +40,9 @@ void DataContent::Insert(MyStringDataObject* newobj)
 	while ( !inserted && (i < SIZE) )
 	{
 		// find an empty slot - take it...
-		if (0 == *(_childcontent+i))
+		if (nullptr == _childcontent[i])
 		{
-			if (0 == _data[i])
+			if (nullptr == _data[i])
 			{
 				_data[i] = newobj;
 				inserted = true;
@@ -82,7 +83,7 @@ void DataContent::_Refactor()
 	for(int i=0; i<SIZE; i++)
 	{
 		*(_childcontent+i) = new DataContent(_data[i]);
-		_data[i] = 0;
+		_data[i] = nullptr;
 
 		// how to set the high and low keys???
 

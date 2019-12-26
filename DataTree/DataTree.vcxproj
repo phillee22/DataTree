@@ -118,8 +118,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/phillee/source/repos/DataTree/DataTree/Debug/DataTree.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/phillee/source/repos/DataTree/DataTree/Debug/DataTree.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Phil/source/repos/DataTree/DataTree/Debug/DataTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Phil/source/repos/DataTree/DataTree/Debug/DataTree.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -160,8 +160,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/phillee/source/repos/DataTree/DataTree/Release/DataTree.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/phillee/source/repos/DataTree/DataTree/Release/DataTree.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Phil/source/repos/DataTree/DataTree/Release/DataTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Phil/source/repos/DataTree/DataTree/Release/DataTree.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -202,8 +202,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/phillee/source/repos/DataTree/DataTree/MinSizeRel/DataTree.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/phillee/source/repos/DataTree/DataTree/MinSizeRel/DataTree.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Phil/source/repos/DataTree/DataTree/MinSizeRel/DataTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Phil/source/repos/DataTree/DataTree/MinSizeRel/DataTree.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -243,8 +243,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/phillee/source/repos/DataTree/DataTree/RelWithDebInfo/DataTree.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/phillee/source/repos/DataTree/DataTree/RelWithDebInfo/DataTree.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Phil/source/repos/DataTree/DataTree/RelWithDebInfo/DataTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Phil/source/repos/DataTree/DataTree/RelWithDebInfo/DataTree.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -253,9 +253,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\phillee\source\repos\DataTree\DataTree\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/phillee/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Phil/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/phillee/source/repos/DataTree -BC:/Users/phillee/source/repos/DataTree --check-stamp-file C:/Users/phillee/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Phil/source/repos/DataTree -BC:/Users/Phil/source/repos/DataTree --check-stamp-file C:/Users/Phil/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,9 +266,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\phillee\source\repos\DataTree\DataTree\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/phillee/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Phil/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/phillee/source/repos/DataTree -BC:/Users/phillee/source/repos/DataTree --check-stamp-file C:/Users/phillee/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Phil/source/repos/DataTree -BC:/Users/Phil/source/repos/DataTree --check-stamp-file C:/Users/Phil/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,9 +279,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\phillee\source\repos\DataTree\DataTree\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/phillee/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Phil/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/phillee/source/repos/DataTree -BC:/Users/phillee/source/repos/DataTree --check-stamp-file C:/Users/phillee/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Phil/source/repos/DataTree -BC:/Users/Phil/source/repos/DataTree --check-stamp-file C:/Users/Phil/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,9 +292,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\phillee\source\repos\DataTree\DataTree\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/phillee/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Phil/source/repos/DataTree/DataTree/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/phillee/source/repos/DataTree -BC:/Users/phillee/source/repos/DataTree --check-stamp-file C:/Users/phillee/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Phil/source/repos/DataTree -BC:/Users/Phil/source/repos/DataTree --check-stamp-file C:/Users/Phil/source/repos/DataTree/DataTree/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

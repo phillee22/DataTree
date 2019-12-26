@@ -3,7 +3,6 @@
 //
 
 #include "DataTree.h"
-#include "MyStringDataObject.h"
 
 using namespace std;
 
@@ -11,7 +10,7 @@ using namespace std;
 int main()
 {
 	// get the data from the file...
-	DataTreeManager dtm("c:\\users\\phillee\\source\\repos\\datatree\\datafile.txt");
+	DataTreeManager dtm("c:\\users\\phil\\source\\repos\\datatree\\datafile.txt");
 
 	static string s("foo");
 	static MyStringDataObject* strobj = new MyStringDataObject(23, &s);
